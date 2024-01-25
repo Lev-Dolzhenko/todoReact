@@ -1,0 +1,133 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 8px;
+}
+
+.form__input {
+  border-radius: 8px;
+  border: 1px solid var(--colorBackground);
+  background: var(--colorBackgroundInput);
+
+  padding: 16px;
+
+  width: 100%;
+  max-width: 638px;
+}
+
+.form__input:focus {
+  box-shadow: 0 0 10px var(--colorAccentHover);
+}
+
+.form__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+
+  background-color: var(--colorAccent);
+  border-radius: 8px;
+  padding: 16px;
+  width: 100px;
+
+  transition: background-color 0.2s linear;
+}
+
+.form__button:hover {
+  background-color: var(--colorAccentHover);
+}
+
+/* TASK */
+
+.form__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+
+  margin-top: 10px;
+}
+
+.form__list_item {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  column-gap: 12px;
+
+  padding: 16px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: left;
+
+  border-radius: 8px;
+  border: 1px solid var(--Gray-400, #333);
+  background: var(--Gray-500, #262626);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.form__list_item label {
+  margin-right: auto;
+}
+
+.list_item_checkbox:checked + .list_item_title {
+  text-decoration: line-through;
+  color: var(--colorTitleMute);
+}
+
+.list_item_title {
+  color: var(--colorTitle);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+/* COUNTER */
+
+.counters__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 65px 0 25px;
+}
+
+.counters__wrapper_all p {
+  color: var(--colorCounter);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.counters__wrapper_all p span {
+  color: var(--colorText);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  background-color: var(--colorTextBG);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.counters__wrapper_solved p {
+  color: var(--colorTotal);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.counters__wrapper_solved p span {
+  color: var(--colorText);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  background-color: var(--colorTextBG);
+  padding: 2px 8px;
+  border-radius: 999px;
+}

@@ -1,0 +1,19 @@
+:root {
+    --mainFont: 'Roboto';
+
+    --colorAccent: #1E6F9F;
+    --colorAccentHover: #1591d8;
+
+    --colorBackground: #0d0d0d;
+    --colorBackgroundSecondary: #1a1a1a;
+    --colorBackgroundInput: #262626;
+
+    --colorTitle: #F2F2F2;
+    --colorTitleMute: #808080;
+
+    --colorCounter: #4EA8DE;
+    --colorText: #d9d9d9;
+    --colorTextBG: #333;
+    --colorTotal: #8284FA;
+
+}
