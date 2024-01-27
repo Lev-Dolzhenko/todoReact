@@ -1,6 +1,7 @@
 .cover {
-    border-top: 1px solid var(--colorTextBG);
+    border-top: 1px solid var(--colorText);
     margin-top: 24px;
+    color: var(--colorText);
 }
 
 .cover__row {

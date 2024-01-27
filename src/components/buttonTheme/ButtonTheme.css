@@ -1,0 +1,18 @@
+.buttonTheme {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: var(--colorText);
+
+    
+}
+
+.buttonTheme img {
+    width: 32px;
+    transition: all 0.1s linear;
+
+}
+
+.buttonTheme:hover img {
+    transform: scale(1.1);
+}

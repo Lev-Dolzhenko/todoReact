@@ -2,7 +2,7 @@ body {
     font-family: var(--mainFont);
     font-size: 16px;
     color: #F2F2F2;
-    background-color: var(--colorBackgroundSecondary);
+    background-color: var(--pageBG);
 }
 
 .container {

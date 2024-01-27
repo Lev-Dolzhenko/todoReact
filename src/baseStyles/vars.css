@@ -5,7 +5,6 @@
     --colorAccentHover: #1591d8;
 
     --colorBackground: #0d0d0d;
-    --colorBackgroundSecondary: #1a1a1a;
     --colorBackgroundInput: #262626;
 
     --colorTitle: #F2F2F2;
@@ -13,7 +12,34 @@
 
     --colorCounter: #4EA8DE;
     --colorText: #d9d9d9;
-    --colorTextBG: #333;
     --colorTotal: #8284FA;
 
+
+    --colorBackgroundSecondaryDark: #1a1a1a;
+    --colorBackgroundItemDark: #262626;
+    --colorBorderItemDark: #333;
+    --colorTextDark: #F2F2F2;
+    --colorBGCircleDark: #333;
+
+    --colorBackgroundSecondaryLight: #e0e0e0;
+    --colorBackgroundItemLight: #c3c3c3;
+    --colorBorderItemLight: #ffffff;
+    --colorTextLight: #222222;
+    --colorBGCircleLight: #c3c3c3;
+
+    --bgItem: var(--colorBackgroundItemDark);
+    --pageBG : var(--colorBackgroundSecondaryDark);
+    --bgInput: var(--colorBackgroundItemDark);
+    --borderItem: var(--colorBorderItemDark);
+    --colorText: var(--colorTextDark);
+    --bgCircle: var(--colorBGCircleDark);
+}
+
+.light {
+    --pageBG : var(--colorBackgroundSecondaryLight);
+    --bgItem: var(--colorBackgroundItemLight);
+    --bgInput: var(--colorBackgroundItemLight);
+    --borderItem: var(--colorBorderItemLight);
+    --colorText: var(--colorTextLight);
+    --bgCirlce: var(--colorBGCircleLight);
 }

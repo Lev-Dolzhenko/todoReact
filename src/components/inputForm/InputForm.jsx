@@ -5,6 +5,7 @@ import plusIcon from "./../../content/InputForm/plus.svg";
 import deleteIcon from "./../../content/Task/trashIcon.svg";
 
 import "./InputForm.css";
+import ButtonTheme from "../buttonTheme/ButtonTheme";
 
 function InputForm() {
   const [inputValue, setInputValue] = useState("");
@@ -121,6 +122,7 @@ function InputForm() {
           </li>
         ))}
       </ul>
+      <ButtonTheme />
     </>
   );
 }
